@@ -4,7 +4,7 @@ dist: bionic
 
 before_install: ci/install-dependencies.sh
 
-script: travis_wait 40 ci/run-build-and-tests.sh
+script: ci/run-build-and-tests.sh
 
 sudo: required
 
